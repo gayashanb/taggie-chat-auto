@@ -5,7 +5,8 @@ import random
 
 #Set delay to start program
 time.sleep(3)
-#this a auto chat program for telegram it will auto reply something, (you writting in 20 line) if someone tell you massage like "mmm".
+#this a auto chat program for telegram it will auto reply something, (you writting in 20 line)
+#if someone send you message like "mmm". This program automatically re-type "mmm" and reply
 def check_newmsg():
     pos2 = pt.locateOnScreen("paper.png", confidence=.7)
 
